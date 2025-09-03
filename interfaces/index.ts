@@ -50,3 +50,8 @@ export interface PropertyProps {
 export interface PropertyCardProps {
   property: PropertyProps;
 }
+
+export interface PropertyDetailProps {
+  property: PropertyProps;
+  description: string;
+}
