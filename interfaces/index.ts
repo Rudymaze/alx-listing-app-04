@@ -46,3 +46,7 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+
+export interface PropertyCardProps {
+  property: PropertyProps;
+}
